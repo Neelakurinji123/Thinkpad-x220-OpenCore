@@ -1,7 +1,7 @@
 <h1 align="center">macOS Monterey on ThinkPad x220</h1>
 
 #### I am not responsible for any damages you may cause.
-![Screenshot from my X220 running Monterey!](x220monterey2.png)
+![Screenshot from my X220 running Monterey!](x220monterey.png)
 
 
 > ### Non-Fuctional
@@ -41,7 +41,7 @@
 | Bluetooth                            | ✅   | `BlueToolFixup.kext`  |
 | Ethernet                             | ✅   | `IntelMausi.kext`  |
 | USB 2.0, 3.0(PCIe)                   | ✅   | `USBMap.kext`   |
-| USB Power Properties                 | ✅   | `SSDT-EC-LAPTOP.aml` |
+| USB Power Properties                 | ✅   | `SSDT-EC.aml` |
 
 > ### Display, TrackPad, TrackPoint, and Keyboard
 
@@ -108,11 +108,11 @@ Read these before you start:
 | Category    | THINKPAD X220            |
 | ----------- | ------------------------ |
 | CPU         | Intel Core i5-2520M      |
-| RAM         | 10 GB DDR3               |
+| RAM         | 8 GB DDR3                |
 | HDD         | 500GB                    |
 | Display     | 12.5' HD (1366x768)      |
 | WiFi & BT   | BCM94322HM8L/BT Dongle   |
-|Bootloader   | OpenCore MOD v0.9.9      |
+|Bootloader   | OpenCore v0.9.8          |
 
 - Refer to [X220-Platform_Specifications](https://www.imaginesystems.net/images/datasheets/x220.pdf) for possible stock ThinkPad X220 configurations.
 
@@ -144,6 +144,7 @@ Before you do anything, please familiarize yourself with basic Hackintosh termin
 - [**README-HARDWARE**](/Other/README_HARDWARE.md): Requirements before installing.
 - [**README-OTHERS**](/Other/README_OTHERS.md): for post installation settings and other remarks.
 
+
 </details>
 
 <details>
@@ -165,3 +166,4 @@ Before you do anything, please familiarize yourself with basic Hackintosh termin
 - [Dortania](https://github.com/dortania) for for the OpenCore Install Guide.
 - [simprecicchiani](https://github.com/simprecicchiani) for inspirational ThinkPad configurations.
 - [zhen-zen](https://github.com/zhen-zen) for **YogaSMC**.
+- Theme for Opencanopy:  https://github.com/82ghost82/BigSurFlat
