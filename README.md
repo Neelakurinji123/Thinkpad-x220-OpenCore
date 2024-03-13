@@ -27,7 +27,7 @@
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
 | Battery Percentage Indication        | ✅   | `ECEnabler.kext`            | 
-| Power Management                     | ✅   | `XCPM`, enabled by [`SSDT-CPUM.aml`](https://github.com/Piker-Alpha/ssdtPRGen.sh) |
+| Power Management                     | ✅   | [`SSDT-PM.aml`](https://github.com/Piker-Alpha/ssdtPRGen.sh) |
 | S3 Sleep/ Hibernation Mode 3         | ✅   |   |   
 | Custom Charge Threshold              | ✅   | ~~[YogaSMC.kext](https://github.com/zhen-zen/YogaSMC), and [YogaSMCPane](https://github.com/zhen-zen/YogaSMC)~~ |
 | Fan Control                          | ✅   | ~~[YogaSMC.kext](https://github.com/zhen-zen/YogaSMC), and [YogaSMCPane](https://github.com/zhen-zen/YogaSMC)~~ |
