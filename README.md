@@ -8,58 +8,58 @@
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
-| Fingerprint Reader                   | ❌   | `DISABLED` in BIOS to save power. |
-| Wireless WAN                         | ❌   | `DISABLED` in BIOS to save power. |
-| VGA Port                             | ❌   | Does not exist on real apple computers. |
+| Fingerprint Reader                   | ❌     | `DISABLED` in BIOS to save power. |
+| Wireless WAN                         | ❌     | `DISABLED` in BIOS to save power. |
+| VGA Port                             | ❌     | Does not exist on real apple computers. |
 
 > ### Video and Audio
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
-| Graphics Accleration                 | ✅   | `WhateverGreen.kext`  |
-| Audio Recording                      | ✅   | `AppleALC.kext`       |
-| Audio Playback                       | ✅   | `AppleALC.kext`       |
-| Automatic Headphone Output Switching | ✅   | `AppleALC.kext`       |
-| Dock Audio Port                      | ✅   | `AppleALC.kext`       |
+| Graphics Accleration                 | ✅     | `WhateverGreen.kext`|
+| Audio Recording                      | ✅     | `AppleALC.kext`     |
+| Audio Playback                       | ✅     | `AppleALC.kext`     |
+| Automatic Headphone Output Switching | ✅     | `AppleALC.kext`     |
+| Dock Audio Port                      | ✅     | `AppleALC.kext`     |
 
 > ### Power, Charge, Sleep and Hibernation
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
-| Battery Percentage Indication        | ✅   | `ECEnabler.kext`            | 
+| Battery Percentage Indication        | ✅   | `ECEnabler.kext`      | 
 | Power Management                     | ✅   | [`SSDT-PM.aml`](https://github.com/Piker-Alpha/ssdtPRGen.sh) |
 | S3 Sleep/ Hibernation Mode 3         | ✅   |   |   
-| Custom Charge Threshold              | ✅   | ~~[YogaSMC.kext](https://github.com/zhen-zen/YogaSMC), and [YogaSMCPane](https://github.com/zhen-zen/YogaSMC)~~ |
-| Fan Control                          | ✅   | ~~[YogaSMC.kext](https://github.com/zhen-zen/YogaSMC), and [YogaSMCPane](https://github.com/zhen-zen/YogaSMC)~~ |
+| Custom Charge Threshold              | ✅   | [YogaSMC.kext](https://github.com/zhen-zen/YogaSMC), and [YogaSMCPane](https://github.com/zhen-zen/YogaSMC) |
+| Fan Control                          | ✅   | [YogaSMC.kext](https://github.com/zhen-zen/YogaSMC), and [YogaSMCPane](https://github.com/zhen-zen/YogaSMC) |
 | Battery Life                         | ✅   | Native, comparable to Windows/Linux. |
 
 > ### Input/ Output
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
-| WiFi                                 | ✅   | `corecaptureElCap.kext and IO80211ElCap.kext`  |
-| Bluetooth                            | ✅   | `BlueToolFixup.kext`  |
-| Ethernet                             | ✅   | `IntelMausi.kext`  |
-| USB 2.0, 3.0(PCIe)                   | ✅   | `USBMap.kext`   |
-| USB Power Properties                 | ✅   | `SSDT-EC.aml` |
+| WiFi                                 | ✅     | `corecaptureElCap.kext and IO80211ElCap.kext`  |
+| Bluetooth                            | ✅     | `BlueToolFixup.kext`|
+| Ethernet                             | ✅     | `IntelMausi.kext`   |
+| USB 2.0, 3.0(PCIe)                   | ✅     | `USBMap.kext`       |
+| USB Power Properties                 | ✅     | `SSDT-EC.aml`       |
 
 > ### Display, TrackPad, TrackPoint, and Keyboard
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
-| Brightness Adjustments | ✅  | `WhateverGreen.kext` and `BrightnessKeys.kext`|
-| TrackPoint             | ✅  | `VoodooPS2Controller.kext` |
-| TrackPad               | ✅  | `VoodooPS2Controller.kext` |
-| Built-in Keyboard      | ✅  | `VoodooPS2Controller.kext` |
-| Multimedia Keys        | ✅  | `BrightnessKeys.kext` ~~and [YogaSMC](https://github.com/zhen-zen/YogaSMC)~~ |
+| Brightness Adjustments               | ✅     | `WhateverGreen.kext` and `BrightnessKeys.kext`|
+| TrackPoint                           | ✅     | `VoodooPS2Controller.kext` |
+| TrackPad                             | ✅     | `VoodooPS2Controller.kext` |
+| Built-in Keyboard                    | ✅     | `VoodooPS2Controller.kext` |
+| Multimedia Keys                      | ✅     | `BrightnessKeys.kext` and [YogaSMC](https://github.com/zhen-zen/YogaSMC) |
 
 > ### macOS Continuity
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
-| iCloud, iMessage, FaceTime           | ❗   | Not tested            |
-| AirDrop                              | ❗   | Not tested            |
-| Time Machine                         | ❗   | Native: Not tested    |
+| iCloud, iMessage, FaceTime           | ❗     | Not tested          |
+| AirDrop                              | ❗     | Not tested          |
+| Time Machine                         | ❗     | Native: Not tested  |
 
 </details>
 
