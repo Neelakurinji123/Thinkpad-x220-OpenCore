@@ -112,7 +112,7 @@ Read these before you start:
 | HDD         | 500GB                    |
 | Display     | 12.5' HD (1366x768)      |
 | WiFi & BT   | BCM94322HM8L/BT Dongle   |
-|Bootloader   | OpenCore v0.9.8          |
+|Bootloader   | OpenCore v0.9.9          |
 
 - Refer to [X220-Platform_Specifications](https://www.imaginesystems.net/images/datasheets/x220.pdf) for possible stock ThinkPad X220 configurations.
 
