@@ -2109,7 +2109,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v slide=0 alcid=14 amfi_get_out_of_my_way=0x1 ipc_control_port_options=0 -disable_sidecar_mac</string>
+                    <string>slide=0 alcid=14 amfi_get_out_of_my_way=0x1 ipc_control_port_options=0 -disable_sidecar_mac</string>
                     <key>csr-active-config</key>
                     <data>/w8AAA==</data>
                     <key>prev-lang:kbd</key>
@@ -2177,23 +2177,23 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C07124207QXDK221M</string>
+                <string>W89101310GUDM6DJA</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>WvVleINT</data>
+                <data>7aP5qJEL</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>Macmini5,2</string>
+                <string>MacBookPro8,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C07FV0E5DJD1</string>
+                <string>W89F2JY6DH2G</string>
                 <key>SystemUUID</key>
-                <string>5CCF2013-3B9F-42A7-87C1-4BD60A626C82</string>
+                <string>7ECC4B95-4640-4E2E-9C3B-F8328C80D974</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
