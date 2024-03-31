@@ -1,4 +1,4 @@
-<h1 align="center">macOS Monterey on ThinkPad x220</h1>
+<h1 align="center">macOS Ventura on ThinkPad x220</h1>
 
 #### I am not responsible for any damages you may cause.
 ![Screenshot from my X220 running Monterey!](x220monterey.png)
@@ -40,7 +40,7 @@
 | WiFi                                 | ✅     | `corecaptureElCap.kext and IO80211ElCap.kext`  |
 | Bluetooth                            | ✅     | `BlueToolFixup.kext`|
 | Ethernet                             | ✅     | `IntelMausi.kext`   |
-| USB 2.0, 3.0(PCIe)                   | ✅     | `USBMap.kext`       |
+| USB 2.0, 3.0(mini PCIe)              | ✅     | `USBMap.kext`       |
 | USB Power Properties                 | ✅     | `SSDT-EC.aml`       |
 
 > ### Display, TrackPad, TrackPoint, and Keyboard
@@ -112,7 +112,7 @@ Read these before you start:
 | HDD         | 500GB                    |
 | Display     | 12.5' HD (1366x768)      |
 | WiFi & BT   | BCM94322HM8L/BT Dongle   |
-|Bootloader   | OpenCore v0.9.9          |
+
 
 - Refer to [X220-Platform_Specifications](https://www.imaginesystems.net/images/datasheets/x220.pdf) for possible stock ThinkPad X220 configurations.
 
@@ -126,11 +126,12 @@ Read these before you start:
 | -------------- | ----------------------------------- |
 | Version        | Modified BIOS version 1.46          |
 | Serial ATA     | AHCI                                |
-| VRam           | 512MB                               |
+| VRam           | 512MB(MAX)                          |
 | IO Port Access | Disabled: WiMAX, Fingerprint reader |
 | Secure Boot    | Disabled                            |
 | Fingerprint    | Predesktop Authentication: Disabled |
 | Boot           | UEFI Only                           |
+| Bootloader     | OpenCore v0.9.9                     |
 
 </details>
 
@@ -153,6 +154,7 @@ Before you do anything, please familiarize yourself with basic Hackintosh termin
 
 - Turn off touchpad in Bios.
 - If using mod bios, disable the AppleCpuPmCfgLock Quirk.
+- Change color profile to 'Display P3'
 
 </details>
 
