@@ -126,7 +126,7 @@ Read these before you start:
 | -------------- | ----------------------------------- |
 | Version        | Modified BIOS version 1.46          |
 | Serial ATA     | AHCI                                |
-| VRam           | 512MB(MAX)                          |
+| VRam           | 512MB(MAX), PreDMVT=128MB(Advanced menu) |
 | IO Port Access | Disabled: WiMAX, Fingerprint reader |
 | Secure Boot    | Disabled                            |
 | Fingerprint    | Predesktop Authentication: Disabled |
