@@ -159,6 +159,13 @@ Before you do anything, please familiarize yourself with basic Hackintosh termin
 </details>
 
 
+<details>
+<summary><strong> KNOWN ISSUES </strong></summary>
+<br>
+
+- Glitches on HD-3000 graphics: Use clamshell mode (single display mode)
+
+
 # Credits
 
 - [Apple](https://www.apple.com) for macOS.
