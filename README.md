@@ -131,6 +131,7 @@ Read these before you start:
 | Secure Boot    | Disabled                            |
 | Fingerprint    | Predesktop Authentication: Disabled |
 | Boot           | UEFI Only                           |
+| Power Management | Max Battery (Boot performance Mode) |
 | Bootloader     | OpenCore v0.9.9                     |
 
 </details>
