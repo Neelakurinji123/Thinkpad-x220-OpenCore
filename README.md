@@ -164,7 +164,9 @@ Before you do anything, please familiarize yourself with basic Hackintosh termin
 <br>
 
 - Glitches on HD-3000 graphics: Use clamshell mode (single display mode)
-
+- When OS hangs where the cursor is still moving: 'System Preferences' -> 'Desktop & Docks' -> 'Hot Corners' and enable a hot corner for display sleep.
+![System Preferences!](SystemPref.png)
+</details>
 
 # Credits
 
@@ -175,4 +177,5 @@ Before you do anything, please familiarize yourself with basic Hackintosh termin
 - [Dortania](https://github.com/dortania) for for the OpenCore Install Guide.
 - [simprecicchiani](https://github.com/simprecicchiani) for inspirational ThinkPad configurations.
 - [zhen-zen](https://github.com/zhen-zen) for **YogaSMC**.
-- Theme for Opencanopy:  https://github.com/82ghost82/BigSurFlat
+- [Theme for Opencanopy](https://github.com/82ghost82/BigSurFlat)
+- [Thinpad x220 Opencore](https://github.com/faithvoid/X220-Catalina)
