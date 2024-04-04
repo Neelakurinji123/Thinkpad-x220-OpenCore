@@ -1,0 +1,8 @@
+# Unnecessary OpenCore file
+.contentFlavour
+
+# Unnecessary Mac file
+.DS_Store
+
+# Unnecessary code editor file
+.nova
